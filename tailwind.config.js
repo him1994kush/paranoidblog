@@ -8,6 +8,13 @@ module.exports = {
     extend: {
       fontFamily: {
         "primary": ['Mukta', 'sans-serif'],
+      },
+      colors: {
+        "green": "#DFFFD8",
+        "blue": {
+          "primary": "#95BDFF",
+          "secondary": "#B4E4FF"
+        },
       }
     },
   },
