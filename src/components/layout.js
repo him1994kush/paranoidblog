@@ -2,12 +2,14 @@ import React from 'react'
 import Footer from './footer'
 import Header from './header'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <main>
-        <Header/>
+    <main className='bg-white-new'>
+      <div className="w-2/3 mx-auto">
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
+      </div>
     </main>
   )
 }
